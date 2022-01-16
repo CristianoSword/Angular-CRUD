@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "Calça Jeans",
+      "price": 320,
+      "id": 1
+    },
+    {
+      "name": "Boné OAK",
+      "price": 131.75,
+      "id": 2
+    },
+    {
+      
+      "name": "Bermuda Lacoste",
+      "price": 231.91,
+      "id": 3
+    },
+    {
+      "name": "Bolsa Tiffany",
+      "price": "412",
+      "id": 4
+    }
+  ]
+}
