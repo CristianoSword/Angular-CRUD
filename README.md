@@ -4,7 +4,7 @@ Pequeno sistema CRUD em Angular 9, Material Angular UI, com uma fake API em JSON
 Screenshots:
 
 
-<img src="https://user-images.githubusercontent.com/16153844/149670274-74a3222e-30cc-4aff-aca7-b287397baa53.jpg" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/16153844/149670274-74a3222e-30cc-4aff-aca7-b287397baa53.jpg" width="600" height="400">
 
 ![2022-01-16 12_34_34-Frontend - Brave](https://user-images.githubusercontent.com/16153844/149670274-74a3222e-30cc-4aff-aca7-b287397baa53.jpg)
 ![2022-01-16 13_06_30-C__Users_origi_Downloads](https://user-images.githubusercontent.com/16153844/149670276-a276bfff-1e38-4bce-bf2d-f5e8d1364917.jpg)
