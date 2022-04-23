@@ -1,5 +1,5 @@
 # Angular-CRUD
-Pequeno sistema CRUD em Angular 9, Material Angular UI, com uma fake API em JSON-server. 
+CRUD em Angular 9, Material Angular UI, com uma fake API em JSON-server. 
 
 Screenshots:
 
