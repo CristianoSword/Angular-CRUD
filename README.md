@@ -1,5 +1,5 @@
 # Angular-CRUD
-CRUD in Angular 9, Material Angular UI, with a fake API JSON-server
+CRUD in Angular 9, Material Angular UI, with a fake API JSON-server..
 
 Screenshots:
 
