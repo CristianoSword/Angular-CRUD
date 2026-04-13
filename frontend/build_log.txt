@@ -1,0 +1,1069 @@
+node.exe : [1m[33mWorkspace extension with invalid name 
+(defaultProject) found.[39m[22m
+At C:\Users\origi\Downloads\web 
+code\Angular-CRUD\frontend\node_modules\.bin\ng.ps1:24 char:5
++     & "node$exe"  "$basedir/../@angular/cli/bin/ng.js" 
+$args
++     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([1m[33mWorksp 
+   ...ound.[39m[22m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[1m[33mOne or more browsers which are configured in the 
+project's Browserslist configuration will be ignored as ES5 
+output is not supported by the Angular CLI.
+Ignored browsers:
+kaios 2.5, op_mini all[39m[22m
+[1m[33mOne or more browsers which are configured in the 
+project's Browserslist configuration fall outside Angular's 
+browser support for this version.
+Unsupported browsers:
+and_qq 14.9, and_uc 15.5, android 147, chrome 109, kaios 
+3.0-3.1, op_mob 80, opera 127, opera 126, samsung 29, 
+samsung 28[39m[22m
+[1m[33m    TypeScript compiler options "target" and 
+"useDefineForClassFields" are set to "ES2022" and "false" 
+respectively by the Angular CLI. To control ECMA version and 
+features use the Browserslist configuration. For more 
+information, see https://angular.dev/tools/cli/build#configur
+ing-browser-compatibility
+    NOTE: You can set the "target" to "ES2022" in the 
+project's tsconfig to remove this warning.[39m[22m
+[1m[31m
+Error: [91merror[0m[90m TS5101: [0mOption 'baseUrl' is 
+deprecated and will stop functioning in TypeScript 7.0. 
+Specify compilerOption '"ignoreDeprecations": "6.0"' to 
+silence this error.
+  Visit https://aka.ms/ts6 for migration information.
+
+
+Error: [91merror[0m[90m TS5101: [0mOption 
+'downlevelIteration' is deprecated and will stop functioning 
+in TypeScript 7.0. Specify compilerOption 
+'"ignoreDeprecations": "6.0"' to silence this error.
+
+
+Error: [91merror[0m[90m TS5107: [0mOption 
+'moduleResolution=node10' is deprecated and will stop 
+functioning in TypeScript 7.0. Specify compilerOption 
+'"ignoreDeprecations": "6.0"' to silence this error.
+  Visit https://aka.ms/ts6 for migration information.
+
+
+Error: [96mnode_modules/@angular/core/types/_discovery-chunk
+.d.ts[0m:[93m12[0m:[93m86[0m - [91merror[0m[90m 
+TS2307: [0mCannot find module '@angular/core/primitives/di' 
+or its corresponding type declarations.
+
+[7m12[0m import { Injector as Injector$1, InjectionToken 
+as InjectionToken$1, NotFound } from 
+'@angular/core/primitives/di';
+[7m  [0m [91m                                             
+                                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96mnode_modules/@angular/core/types/core.d.ts[0m:[
+93m20[0m:[93m8[0m - [91merror[0m[90m TS2882: 
+[0mCannot find module or type declarations for side-effect 
+import of '@angular/core/primitives/di'.
+
+[7m20[0m import '@angular/core/primitives/di';
+[7m  [0m [91m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96mnode_modules/@angular/platform-browser/types/plat
+form-browser.d.ts[0m:[93m10[0m:[93m42[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/common/http' or its corresponding type 
+declarations.
+
+[7m10[0m import { HttpTransferCacheOptions } from 
+'@angular/common/http';
+[7m  [0m [91m                                         
+~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'app-header' is not a known 
+element:
+1. If 'app-header' is an Angular component, then verify that 
+it is part of this module.
+2. If 'app-header' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <app-header></app-header>
+[7m [0m [91m~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: 
+[96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'app-nav' is not a known 
+element:
+1. If 'app-nav' is an Angular component, then verify that it 
+is part of this module.
+2. If 'app-nav' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m <app-nav></app-nav>
+[7m [0m [91m~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: 
+[96msrc/app/app.component.html[0m:[93m3[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'app-footer' is not a known 
+element:
+1. If 'app-footer' is an Angular component, then verify that 
+it is part of this module.
+2. If 'app-footer' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m3[0m <app-footer></app-footer>
+[7m [0m [91m~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: 'app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m6[0m:[93m41[0m 
+- [91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/platform-browser/animations' or its corresponding 
+type declarations.
+
+[7m6[0m import { BrowserAnimationsModule } from 
+'@angular/platform-browser/animations';
+[7m [0m [91m                                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m9[0m:[93m34[0m 
+- [91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/toolbar' or its corresponding type 
+declarations.
+
+[7m9[0m import { MatToolbarModule } from 
+'@angular/material/toolbar';
+[7m [0m [91m                                 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m13[0m:[93m34[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/sidenav' or its corresponding type 
+declarations.
+
+[7m13[0m import { MatSidenavModule } from 
+'@angular/material/sidenav';
+[7m  [0m [91m                                 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m14[0m:[93m31[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/card' or its corresponding type 
+declarations.
+
+[7m14[0m import { MatCardModule } from 
+'@angular/material/card';
+[7m  [0m [91m                              
+~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m15[0m:[93m31[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/list' or its corresponding type 
+declarations.
+
+[7m15[0m import { MatListModule } from 
+'@angular/material/list';
+[7m  [0m [91m                              
+~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m16[0m:[93m33[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/button' or its corresponding type 
+declarations.
+
+[7m16[0m import { MatButtonModule } from 
+'@angular/material/button'
+[7m  [0m [91m                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m20[0m:[93m35[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/snack-bar' or its corresponding type 
+declarations.
+
+[7m20[0m import { MatSnackBarModule } from 
+'@angular/material/snack-bar';
+[7m  [0m [91m                                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m22[0m:[93m34[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/common/http' or its corresponding type 
+declarations.
+
+[7m22[0m import { HttpClientModule } from 
+'@angular/common/http';
+[7m  [0m [91m                                 
+~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m24[0m:[93m36[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/form-field' or its corresponding type 
+declarations.
+
+[7m24[0m import { MatFormFieldModule } from 
+'@angular/material/form-field'
+[7m  [0m [91m                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m25[0m:[93m32[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/input' or its corresponding type 
+declarations.
+
+[7m25[0m import { MatInputModule } from 
+'@angular/material/input';
+[7m  [0m [91m                               
+~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m27[0m:[93m32[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/table' or its corresponding type 
+declarations.
+
+[7m27[0m import { MatTableModule } from 
+'@angular/material/table';
+[7m  [0m [91m                               
+~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m28[0m:[93m36[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/paginator' or its corresponding type 
+declarations.
+
+[7m28[0m import { MatPaginatorModule } from 
+'@angular/material/paginator';
+[7m  [0m [91m                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m29[0m:[93m31[0m - 
+[91merror[0m[90m TS2307: [0mCannot find module 
+'@angular/material/sort' or its corresponding type 
+declarations.
+
+[7m29[0m import { MatSortModule } from 
+'@angular/material/sort'
+[7m  [0m [91m                              
+~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: 
+[96msrc/app/app.module.ts[0m:[93m51[0m:[93m12[0m - 
+[91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m1[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card' is not a known 
+element:
+1. If 'mat-card' is an Angular component, then verify that 
+it is part of this module.
+2. If 'mat-card' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-card class="home mat-elevation-z3">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m2[0m:[93m5[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card-title' is not a 
+known element:
+1. If 'mat-card-title' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-card-title' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m     <mat-card-title>
+[7m [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m6[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m6[0m         <mat-form-field>
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m8[0m:[93m13[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' 
+since it isn't a known property of 'input'.
+
+[7m8[0m             [(ngModel)]="product.name"
+[7m [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m12[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m12[0m         <mat-form-field>
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.html[0m:[93m14[0m:[93m13[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' 
+since it isn't a known property of 'input'.
+
+[7m14[0m             [(ngModel)]="product.price"
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-create/product-crea
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-create.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCreateComponent.
+
+
+Error: [96msrc/app/components/product/product-create/product
+-create.component.ts[0m:[93m16[0m:[93m5[0m - 
+[91merror[0m[90m TS2322: [0mType 'null' is not 
+assignable to type 'number'.
+
+[7m16[0m     price: null
+[7m  [0m [91m    ~~~~~[0m
+
+  [96msrc/app/components/product/product.model.ts[0m:[93m4
+[0m:[93m5[0m
+    [7m4[0m     price: number
+    [7m [0m [96m    ~~~~~[0m
+    The expected type comes from property 'price' which is 
+declared here on type 'Product'
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.html[0m:[93m1[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card' is not a known 
+element:
+1. If 'mat-card' is an Angular component, then verify that 
+it is part of this module.
+2. If 'mat-card' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-card class="home mat-elevation-z3">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-delete/product-dele
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+"./product-delete.component.html",
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductDeleteComponent.
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.html[0m:[93m2[0m:[93m5[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card-title' is not a 
+known element:
+1. If 'mat-card-title' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-card-title' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m     <mat-card-title>
+[7m [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-delete/product-dele
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+"./product-delete.component.html",
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductDeleteComponent.
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.html[0m:[93m6[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m6[0m         <mat-form-field>
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-delete/product-dele
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+"./product-delete.component.html",
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductDeleteComponent.
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.html[0m:[93m13[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m13[0m         <mat-form-field>
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-delete/product-dele
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+"./product-delete.component.html",
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductDeleteComponent.
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.ts[0m:[93m13[0m:[93m3[0m - 
+[91merror[0m[90m TS2564: [0mProperty 'product' has no 
+initializer and is not definitely assigned in the 
+constructor.
+
+[7m13[0m   product: Product;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.ts[0m:[93m22[0m:[93m17[0m - 
+[91merror[0m[90m TS2531: [0mObject is possibly 'null'.
+
+[7m22[0m     const id = 
++this.route.snapshot.paramMap.get('id');
+[7m  [0m [91m                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product-delete/product
+-delete.component.ts[0m:[93m29[0m:[93m32[0m - 
+[91merror[0m[90m TS2345: [0mArgument of type 'number | 
+undefined' is not assignable to parameter of type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m29[0m     
+this.productService.delete(this.product.id).subscribe(() => {
+[7m  [0m [91m                               
+~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product-read/product-r
+ead.component.html[0m:[93m2[0m:[93m22[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'dataSource' 
+since it isn't a known property of 'table'.
+
+[7m2[0m     <table mat-table [dataSource]="products">
+[7m [0m [91m                     
+~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-read/product-read.c
+omponent.ts[0m:[93m7[0m:[93m16[0m
+    [7m7[0m   templateUrl: './product-read.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductReadComponent.
+
+
+Error: [96msrc/app/components/product/product-read/product-r
+ead.component.html[0m:[93m18[0m:[93m60[0m - 
+[91merror[0m[90m NG8004: [0mNo pipe found with name 
+'currency'.
+To fix this, import the "CurrencyPipe" class from 
+"@angular/common" and add it to the "imports" array of the 
+module declaring the component.
+
+[7m18[0m         <td mat-cell *matCellDef="let row">{{  
+row.price | currency : 'BRL' }}</td>
+[7m  [0m [91m                                             
+              ~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-read/product-read.c
+omponent.ts[0m:[93m7[0m:[93m16[0m
+    [7m7[0m   templateUrl: './product-read.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductReadComponent.
+
+
+Error: [96msrc/app/components/product/product-read/product-r
+ead.component.html[0m:[93m25[0m:[93m16[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'routerLink' 
+since it isn't a known property of 'a'.
+
+[7m25[0m             <a routerLink="/products/update/{{ 
+row.id }}">
+[7m  [0m [91m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-read/product-read.c
+omponent.ts[0m:[93m7[0m:[93m16[0m
+    [7m7[0m   templateUrl: './product-read.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductReadComponent.
+
+
+Error: [96msrc/app/components/product/product-read/product-r
+ead.component.html[0m:[93m31[0m:[93m16[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'routerLink' 
+since it isn't a known property of 'a'.
+
+[7m31[0m             <a routerLink="/products/delete/{{ 
+row.id }}">
+[7m  [0m [91m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-read/product-read.c
+omponent.ts[0m:[93m7[0m:[93m16[0m
+    [7m7[0m   templateUrl: './product-read.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductReadComponent.
+
+
+Error: [96msrc/app/components/product/product-read/product-r
+ead.component.ts[0m:[93m13[0m:[93m3[0m - 
+[91merror[0m[90m TS2564: [0mProperty 'products' has no 
+initializer and is not definitely assigned in the 
+constructor.
+
+[7m13[0m   products: Product[]
+[7m  [0m [91m  ~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m1[0m:[93m1[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card' is not a known 
+element:
+1. If 'mat-card' is an Angular component, then verify that 
+it is part of this module.
+2. If 'mat-card' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-card class="home mat-elevation-z3">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m2[0m:[93m5[0m - 
+[91merror[0m[90m NG8001: [0m'mat-card-title' is not a 
+known element:
+1. If 'mat-card-title' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-card-title' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m     <mat-card-title>
+[7m [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m6[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m6[0m         <mat-form-field>
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m8[0m:[93m13[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' 
+since it isn't a known property of 'input'.
+
+[7m8[0m             [(ngModel)]="product.name"
+[7m [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m12[0m:[93m9[0m - 
+[91merror[0m[90m NG8001: [0m'mat-form-field' is not a 
+known element:
+1. If 'mat-form-field' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m12[0m         <mat-form-field>
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.html[0m:[93m14[0m:[93m13[0m - 
+[91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' 
+since it isn't a known property of 'input'.
+
+[7m14[0m             [(ngModel)]="product.price"
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/product/product-update/product-upda
+te.component.ts[0m:[93m8[0m:[93m16[0m
+    [7m8[0m   templateUrl: 
+'./product-update.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductUpdateComponent.
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.ts[0m:[93m14[0m:[93m3[0m - 
+[91merror[0m[90m TS2564: [0mProperty 'product' has no 
+initializer and is not definitely assigned in the 
+constructor.
+
+[7m14[0m   product: Product;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product-update/product
+-update.component.ts[0m:[93m23[0m:[93m17[0m - 
+[91merror[0m[90m TS2531: [0mObject is possibly 'null'.
+
+[7m23[0m     const id = 
++this.route.snapshot.paramMap.get('id')
+[7m  [0m [91m                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product.service.ts[0m
+:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: 
+[0mCannot find module '@angular/material/snack-bar' or its 
+corresponding type declarations.
+
+[7m2[0m import { MatSnackBar } from 
+"@angular/material/snack-bar";
+[7m [0m [91m                            
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product.service.ts[0m
+:[93m3[0m:[93m28[0m - [91merror[0m[90m TS2307: 
+[0mCannot find module '@angular/common/http' or its 
+corresponding type declarations.
+
+[7m3[0m import { HttpClient } from "@angular/common/http";
+[7m [0m [91m                           
+~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/components/product/product.service.ts[0m
+:[93m15[0m:[93m23[0m - [91merror[0m[90m NG2003: 
+[0mNo suitable injection token for parameter 'snackBar' of 
+class 'ProductService'.
+  Consider using the @Inject decorator to specify an 
+injection token.
+
+[7m15[0m   constructor(private snackBar: MatSnackBar, 
+private http: HttpClient) { }
+[7m  [0m [91m                      ~~~~~~~~[0m
+
+  [96msrc/app/components/product/product.service.ts[0m:[93
+m15[0m:[93m33[0m
+    [7m15[0m   constructor(private snackBar: MatSnackBar, 
+private http: HttpClient) { }
+    [7m  [0m [96m                                
+~~~~~~~~~~~[0m
+    This type does not have a value, so it cannot be used as 
+injection token.
+
+
+Error: [96msrc/app/components/template/footer/footer.compone
+nt.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m 
+NG8001: [0m'mat-toolbar' is not a known element:
+1. If 'mat-toolbar' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-toolbar' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-toolbar class="footer">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/footer/footer.component.ts
+[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './footer.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+FooterComponent.
+
+
+Error: [96msrc/app/components/template/header/header.compone
+nt.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m 
+NG8001: [0m'mat-toolbar' is not a known element:
+1. If 'mat-toolbar' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-toolbar' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m <mat-toolbar class="header mat-elevation-z4">
+[7m [0m 
+[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/header/header.component.ts
+[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './header.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+HeaderComponent.
+
+
+Error: [96msrc/app/components/template/nav/nav.component.htm
+l[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: 
+[0m'mat-sidenav-container' is not a known element:
+1. If 'mat-sidenav-container' is an Angular component, then 
+verify that it is part of this module.
+2. If 'mat-sidenav-container' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-sidenav-container class="container">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/nav/nav.component.ts[0m:
+[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './nav.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component NavComponent.
+
+
+Error: [96msrc/app/components/template/nav/nav.component.htm
+l[0m:[93m2[0m:[93m5[0m - [91merror[0m[90m NG8001: 
+[0m'mat-sidenav' is not a known element:
+1. If 'mat-sidenav' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-sidenav' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m     <mat-sidenav class="sidenav" mode="side" opened
+[7m [0m [91m    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m3[0m     fixedInViewport="true" fixedTopGap="64">
+[7m [0m 
+[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/nav/nav.component.ts[0m:
+[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './nav.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component NavComponent.
+
+
+Error: [96msrc/app/components/template/nav/nav.component.htm
+l[0m:[93m4[0m:[93m9[0m - [91merror[0m[90m NG8001: 
+[0m'mat-nav-list' is not a known element:
+1. If 'mat-nav-list' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-nav-list' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m4[0m         <mat-nav-list class="nav-list">
+[7m [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/nav/nav.component.ts[0m:
+[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './nav.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component NavComponent.
+
+
+Error: [96msrc/app/components/template/nav/nav.component.htm
+l[0m:[93m19[0m:[93m5[0m - [91merror[0m[90m NG8001: 
+[0m'mat-sidenav-content' is not a known element:
+1. If 'mat-sidenav-content' is an Angular component, then 
+verify that it is part of this module.
+2. If 'mat-sidenav-content' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m19[0m     <mat-sidenav-content class="content">
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/nav/nav.component.ts[0m:
+[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './nav.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component NavComponent.
+
+
+Error: [96msrc/app/components/template/nav/nav.component.htm
+l[0m:[93m20[0m:[93m9[0m - [91merror[0m[90m NG8001: 
+[0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify 
+that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m20[0m         <router-outlet></router-outlet>
+[7m  [0m [91m        ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/components/template/nav/nav.component.ts[0m:
+[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './nav.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component NavComponent.
+
+
+Error: [96msrc/app/views/home/home.component.html[0m:[93m1
+[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'mat-card' 
+is not a known element:
+1. If 'mat-card' is an Angular component, then verify that 
+it is part of this module.
+2. If 'mat-card' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m1[0m <mat-card class="home mat-elevation-z3">
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/views/home/home.component.ts[0m:[93m5[0m:[
+93m16[0m
+    [7m5[0m   templateUrl: './home.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component HomeComponent.
+
+
+Error: [96msrc/app/views/home/home.component.html[0m:[93m2
+[0m:[93m5[0m - [91merror[0m[90m NG8001: 
+[0m'mat-card-title' is not a known element:
+1. If 'mat-card-title' is an Angular component, then verify 
+that it is part of this module.
+2. If 'mat-card-title' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m2[0m     <mat-card-title class="title">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/views/home/home.component.ts[0m:[93m5[0m:[
+93m16[0m
+    [7m5[0m   templateUrl: './home.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component HomeComponent.
+
+
+Error: [96msrc/app/views/home/home.component.html[0m:[93m5
+[0m:[93m5[0m - [91merror[0m[90m NG8001: 
+[0m'mat-card-subtitle' is not a known element:
+1. If 'mat-card-subtitle' is an Angular component, then 
+verify that it is part of this module.
+2. If 'mat-card-subtitle' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m5[0m     <mat-card-subtitle class="subtitle">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/views/home/home.component.ts[0m:[93m5[0m:[
+93m16[0m
+    [7m5[0m   templateUrl: './home.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component HomeComponent.
+
+
+Error: [96msrc/app/views/product-crud/product-crud.component
+.html[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m 
+NG8001: [0m'app-product-read' is not a known element:
+1. If 'app-product-read' is an Angular component, then 
+verify that it is part of this module.
+2. If 'app-product-read' is a Web Component then add 
+'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this 
+component to suppress this message.
+
+[7m5[0m <app-product-read></app-product-read>
+[7m [0m [91m~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/views/product-crud/product-crud.component.ts[
+0m:[93m6[0m:[93m16[0m
+    [7m6[0m   templateUrl: './product-crud.component.html',
+    [7m [0m [96m               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component 
+ProductCrudComponent.
+
+
+[39m[22m
