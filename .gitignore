@@ -1,0 +1,23 @@
+# Miscellaneous
+.angular/
+node_modules/
+dist/
+tmp/
+.vscode/
+
+# Environment
+.env
+*.env.local
+
+# Git
+.gitignore.bak
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build_log.txt
+
+# OS
+Thumbs.db
+.DS_Store
