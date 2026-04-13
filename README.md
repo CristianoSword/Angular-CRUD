@@ -1,6 +1,6 @@
-# Angular-CRUD Modernizado (v21)
+# Modernized Angular-CRUD (v21)
 
-Um sistema CRUD (Create, Read, Update, Delete) robusto e moderno, construído com o ecossistema **Angular** e **Material Design**.
+A robust and modern CRUD (Create, Read, Update, Delete) system built with the **Angular** ecosystem and **Material Design**.
 
 ## Screenshots
 
@@ -8,56 +8,56 @@ Um sistema CRUD (Create, Read, Update, Delete) robusto e moderno, construído co
 <img src="https://user-images.githubusercontent.com/16153844/149670276-a276bfff-1e38-4bce-bf2d-f5e8d1364917.jpg" width="600" height="400">
 <img src="https://user-images.githubusercontent.com/16153844/149670277-0b221123-c41b-4316-9277-5fa06e65c5e1.jpg" width="600" height="400">
 
-## 🚀 Modernização Tecnológica
+## 🚀 Technological Modernization
 
-Originalmente desenvolvido em Angular 9, este projeto passou por um processo sistemático de modernização de infraestrutura:
+Originally developed in Angular 9, this project underwent a systematic infrastructure modernization process:
 
--   **Framework:** Elevado de Angular 9.1 para **Angular 21.2**.
--   **TypeScript:** Atualizado para a versão **6.0.2**.
--   **Arquitetura:** Preservação da estrutura **NgModule** (standalone: false) para garantir compatibilidade com componentes legados sem refactoring invasivo.
--   **Ambiente:** Otimizado para **Node.js v22.12.0**.
+-   **Framework:** Upgraded from Angular 9.1 to **Angular 21.2**.
+-   **TypeScript:** Updated to version **6.0.2**.
+-   **Architecture:** Preservation of the **NgModule** structure (standalone: false) to ensure compatibility with legacy components without invasive refactoring.
+-   **Environment:** Optimized for **Node.js v22.12.0**.
 
-## 🏗️ Estrutura do Projeto
+## 🏗️ Project Structure
 
--   **frontend/**: Aplicação Angular utilizando Angular Material para uma interface rica e responsiva.
--   **backend/**: API Fake servida pelo `json-server`, facilitando testes e prototipagem rápida.
+-   **frontend/**: Angular application using Angular Material for a rich and responsive interface.
+-   **backend/**: Fake API served by `json-server`, facilitating testing and rapid prototyping.
 
-## 🛠️ Pré-requisitos
+## 🛠️ Prerequisites
 
--   **Node.js**: v22.12.0 ou superior.
--   **npm**: v10.x ou superior.
--   **Angular CLI**: Instalado localmente via dependências do projeto.
+-   **Node.js**: v22.12.0 or higher.
+-   **npm**: v10.x or higher.
+-   **Angular CLI**: Installed locally via project dependencies.
 
-## 🏃 Como Executar
+## 🏃 How to Run
 
-### 1. Preparar o Backend
-Navegue até a pasta do backend e inicie o servidor da API:
+### 1. Prepare the Backend
+Navigate to the backend folder and start the API server:
 ```bash
 cd backend
 npm install
 npm start
 ```
-A API estará disponível em `http://localhost:3001`.
+The API will be available at `http://localhost:3001`.
 
-### 2. Preparar o Frontend
-Em um novo terminal, navegue até a pasta do frontend e inicie a aplicação:
+### 2. Prepare the Frontend
+In a new terminal, navigate to the frontend folder and start the application:
 ```bash
 cd frontend
 npm install
 npm start
 ```
-Acesse a aplicação em `http://localhost:4200`.
+Access the application at `http://localhost:4200`.
 
-## 🌳 Gestão de Branches
+## 🌳 Branch Management
 
-Para fins de arquivamento e comparação, o estado original da aplicação (Angular 9) foi preservado na branch:
--   `angular-8-initial` (Baseline original do projeto).
+For archiving and comparison purposes, the original state of the application (Angular 9) has been preserved in the following branch:
+-   `angular-8-initial` (Original project baseline).
 
-## 🧭 Roadmap de Melhorias
-Este projeto está em constante evolução técnica, com foco em:
--   Correção de tipagem estrita e refatoração de serviços.
--   Implementação de validações avançadas de formulários.
--   Adição de filtros e paginação no lado do cliente.
+## 🧭 Improvement Roadmap
+This project is under constant technical evolution, focusing on:
+-   Strict typing correction and service refactoring.
+-   Implementation of advanced form validations.
+-   Addition of client-side filters and pagination.
 
 ---
-*Desenvolvido com foco em modernização de infraestrutura mantendo 100% da identidade visual original.*
+*Developed with a focus on infrastructure modernization while maintaining 100% of the original visual identity.*
