@@ -6,17 +6,18 @@ import { Product } from '../product.model';
 @Component({
   selector: 'app-product-update',
   templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  styleUrls: ['./product-update.component.css'],
+  standalone: false
 })
 export class ProductUpdateComponent implements OnInit {
 
   product: Product;
 
   constructor(
-    private productService: ProductService, 
-    private router: Router, 
+    private productService: ProductService,
+    private router: Router,
     private route: ActivatedRoute
-    ) { }
+  ) { }
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id')
@@ -25,14 +26,14 @@ export class ProductUpdateComponent implements OnInit {
     })
   }
 
-  updateProduct():void {
-    this.productService.update(this.product).subscribe(()=>{
+  updateProduct(): void {
+    this.productService.update(this.product).subscribe(() => {
       this.productService.showMensage('Produto atualizado com sucesso')
       this.router.navigate(['/products']);
     });
   }
 
-  cancel():void {
+  cancel(): void {
     this.router.navigate(['/products'])
   }
 }

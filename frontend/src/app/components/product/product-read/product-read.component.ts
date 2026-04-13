@@ -5,7 +5,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-product-read',
   templateUrl: './product-read.component.html',
-  styleUrls: ['./product-read.component.css']
+  styleUrls: ['./product-read.component.css'],
+  standalone: false
 })
 export class ProductReadComponent implements OnInit {
 
@@ -17,7 +18,7 @@ export class ProductReadComponent implements OnInit {
       this.products = products
       console.log(products)
     })
-   }
+  }
 
   ngOnInit(): void {
 

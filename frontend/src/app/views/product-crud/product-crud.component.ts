@@ -4,7 +4,8 @@ import { Router } from '@angular/router'
 @Component({
   selector: 'app-product-crud',
   templateUrl: './product-crud.component.html',
-  styleUrls: ['./product-crud.component.css']
+  styleUrls: ['./product-crud.component.css'],
+  standalone: false
 })
 export class ProductCrudComponent implements OnInit {
 

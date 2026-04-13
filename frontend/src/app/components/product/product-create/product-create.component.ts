@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-product-create',
   templateUrl: './product-create.component.html',
-  styleUrls: ['./product-create.component.css']
+  styleUrls: ['./product-create.component.css'],
+  standalone: false
 })
 export class ProductCreateComponent implements OnInit {
 
-  product : Product = {
+  product: Product = {
     name: '',
     price: null
   }
@@ -18,7 +19,7 @@ export class ProductCreateComponent implements OnInit {
   constructor(private productService: ProductService, private router: Router) { }
 
   ngOnInit(): void {
-  
+
   }
 
   createProduct(): void {

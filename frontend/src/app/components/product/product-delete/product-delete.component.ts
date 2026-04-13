@@ -7,6 +7,7 @@ import { Product } from "../product.model";
   selector: "app-product-delete",
   templateUrl: "./product-delete.component.html",
   styleUrls: ["./product-delete.component.css"],
+  standalone: false
 })
 export class ProductDeleteComponent implements OnInit {
   product: Product;
@@ -15,7 +16,7 @@ export class ProductDeleteComponent implements OnInit {
     private productService: ProductService,
     private router: Router,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id');
