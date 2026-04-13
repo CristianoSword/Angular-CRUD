@@ -1,23 +1,57 @@
-# Angular-CRUD
-CRUD in Angular 9, Material Angular UI, with a fake API JSON-server.
-Using modules.ts
+# Angular-CRUD Modernizado (v21)
 
-Screenshots:
+Um sistema CRUD (Create, Read, Update, Delete) robusto e moderno, construído com o ecossistema **Angular** e **Material Design**.
 
+## 🚀 Modernização Tecnológica
 
-<img src="https://user-images.githubusercontent.com/16153844/149670274-74a3222e-30cc-4aff-aca7-b287397baa53.jpg" width="600" height="400">
-<img src="https://user-images.githubusercontent.com/16153844/149670276-a276bfff-1e38-4bce-bf2d-f5e8d1364917.jpg" width="600" height="400">
-<img src="https://user-images.githubusercontent.com/16153844/149670277-0b221123-c41b-4316-9277-5fa06e65c5e1.jpg" width="600" height="400">
+Originalmente desenvolvido em Angular 9, este projeto passou por um processo sistemático de modernização de infraestrutura:
 
-## Usage
+-   **Framework:** Elevado de Angular 9.1 para **Angular 21.2**.
+-   **TypeScript:** Atualizado para a versão **6.0.2**.
+-   **Arquitetura:** Preservação da estrutura **NgModule** (standalone: false) para garantir compatibilidade com componentes legados sem refactoring invasivo.
+-   **Ambiente:** Otimizado para **Node.js v22.12.0**.
+
+## 🏗️ Estrutura do Projeto
+
+-   **frontend/**: Aplicação Angular utilizando Angular Material para uma interface rica e responsiva.
+-   **backend/**: API Fake servida pelo `json-server`, facilitando testes e prototipagem rápida.
+
+## 🛠️ Pré-requisitos
+
+-   **Node.js**: v22.12.0 ou superior.
+-   **npm**: v10.x ou superior.
+-   **Angular CLI**: Instalado localmente via dependências do projeto.
+
+## 🏃 Como Executar
+
+### 1. Preparar o Backend
+Navegue até a pasta do backend e inicie o servidor da API:
 ```bash
-ng serve 
-
+cd backend
+npm install
+npm start
 ```
+A API estará disponível em `http://localhost:3001`.
 
-Runs the app in the development mode.\
-Open [http://localhost:4200](http://localhost:4200) to view it in your browser.
+### 2. Preparar o Frontend
+Em um novo terminal, navegue até a pasta do frontend e inicie a aplicação:
+```bash
+cd frontend
+npm install
+npm start
+```
+Acesse a aplicação em `http://localhost:4200`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌳 Gestão de Branches
 
+Para fins de arquivamento e comparação, o estado original da aplicação (Angular 9) foi preservado na branch:
+-   `angular-8-initial` (Baseline original do projeto).
+
+## 🧭 Roadmap de Melhorias
+Este projeto está em constante evolução técnica, com foco em:
+-   Correção de tipagem estrita e refatoração de serviços.
+-   Implementação de validações avançadas de formulários.
+-   Adição de filtros e paginação no lado do cliente.
+
+---
+*Desenvolvido com foco em modernização de infraestrutura mantendo 100% da identidade visual original.*
